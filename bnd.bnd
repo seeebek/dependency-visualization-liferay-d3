@@ -1,0 +1,7 @@
+Bundle-Name: Dependency visualization
+Bundle-SymbolicName: com.mercatis.bundle.dependency.visualization
+Bundle-Version: 1.0.0
+Require-Capability:\
+	soy;\
+		filter:="(type=metal)"
+Include-Resource: package.json

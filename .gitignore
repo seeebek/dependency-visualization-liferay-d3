@@ -1,0 +1,22 @@
+# IntelliJ
+.idea
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+
+# Mac
+.DS_Store
+
+# Gradle
+.gradle
+
+**/out/
+**/build/
+**/node_modules/
+**/.sass-cache/
+**/bin/

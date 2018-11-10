@@ -1,0 +1,19 @@
+.dependency-visualization {
+  #graph {
+    width: 1820px; // size chosen to fill full hd screen on default theme
+    height: 850px;
+    margin-left: -300px; // margin chosen to fill full hd screen on default theme
+    border: 1px solid black;
+    background: #ffffff;
+    overflow: scroll;
+
+    svg {
+      width: 5000px;
+      height: 5000px;
+    }
+
+    .node.fixed {
+      fill: #f00;
+    }
+  }
+}
